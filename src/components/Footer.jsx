@@ -58,9 +58,7 @@ const Footer = () => {
             <li>Category</li>
             <li>Templates</li>
           </ul>
-        </div>
-
-       
+        </div>       
       </div>
     </footer>
   );

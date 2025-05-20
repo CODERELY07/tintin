@@ -7,6 +7,7 @@ import Accordion from '../components/Accordion';
 import TestimonialSlider from '../components/TestimonialSlider';
 import AutoScrollSlider from '../components/AutoScrollSlider';
 import Footer from '../components/Footer';
+import GallerySection from '../components/GallerySection';
 export default function Home() {
   return (
     <>
@@ -43,8 +44,10 @@ export default function Home() {
           </div>
 
       </div>
+      <GallerySection/>
       <Accordion/>
       <TestimonialSlider/>
+      
       <Footer/>
     </>
   );
