@@ -2,12 +2,9 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <header className="relative bg-gradient-to-r from-purple-700 via-pink-600 to-red-500 text-white h-screen flex flex-col justify-center items-center px-6 text-center">
+    <header className="relative bg-gradient-to-r from-purple-500 via-purple-600 to-purple-400 text-white h-screen flex flex-col justify-center items-center px-6 text-center">
       {/* Background overlay */}
-      <div
-        className="absolute inset-0 bg-cover bg-center opacity-5"
-        style={{ backgroundImage: `url('https://i.ytimg.com/vi/U7xGbMfIats/maxresdefault.jpg')` }}
-      ></div>
+     
 
       {/* Content container with higher z-index */}
       <div className="relative z-10">
@@ -20,13 +17,12 @@ export default function Banner() {
         <button
           className="
             bg-white 
-            text-pink-600 
+            text-purple-600 
             font-bold 
             px-6 
             py-3 
             rounded-full 
             shadow-lg 
-            hover:bg-pink-600 
             hover:text-pink-700 
             transform 
             hover:scale-105 
@@ -34,7 +30,7 @@ export default function Banner() {
             duration-300
           "
         >
-          Mag Explore
+         Manood
         </button>
       </div>
     </header>
