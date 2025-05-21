@@ -25,6 +25,7 @@
     "react-native-safe-area-context": "^5.4.0",
     "react-native-screens": "^4.10.0",
     "react-native-vector-icons": "^10.2.0",
+    "react-player": "^2.16.0",
     "react-router-dom": "^7.6.0",
     "swiper": "^11.2.6",
     "yet-another-react-lightbox": "^3.23.2"

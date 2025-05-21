@@ -10,6 +10,7 @@ const videos = [
     year: 2025,
     duration: "107 min",
     genres: ["Action", "Drama"],
+    url: "/videos/videoplayback.mp4",
     description:
       "A dishonorably discharged soldier seeks out his estranged father to help him pursue his dream of becoming a professional motorcycle racer...",
   },
@@ -17,6 +18,7 @@ const videos = [
     title: "Godzilla x Kong: The New Empire",
     image: "https://external-preview.redd.it/new-godzilla-x-kong-the-new-empire-banner-v0-0Jen9l6DHZtpyKqeHJtQH7KIzSp3-QAXvqDh8an5Krs.png?width=1080&crop=smart&auto=webp&s=b0c790fde7aff0195d79af19a765757bf6629568",
     year: 2025,
+     url: "/videos/vid2.mp4",
     duration: "115 min",
     genres: ["Action", "Sci-Fi"],
     description:

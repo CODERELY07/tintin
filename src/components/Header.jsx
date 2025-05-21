@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Link } from 'react-router-dom';
 
 
-export default function Header() {
+export default function Header({className}) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -19,7 +19,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="fixed top-2 left-1/2 transform -translate-x-1/2 w-full max-w-5xl z-50 px-2 p-4">
+    <div className={`fixed ${className} top-2 left-1/2 transform -translate-x-1/2 w-full max-w-5xl z-50 px-2 p-4`}>
       <header
         className={`
           bg-white shadow-md w-full overflow-hidden p-2
