@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <header className="relative bg-gradient-to-r from-purple-500 via-purple-600 to-purple-400 text-white h-screen flex flex-col justify-center items-center px-6 text-center">
+    <header className="relative bg-blue-50  h-screen flex flex-col justify-center items-center px-6 text-center">
       {/* Background overlay */}
      
 
@@ -23,7 +23,7 @@ export default function Banner() {
             py-3 
             rounded-full 
             shadow-lg 
-            hover:text-pink-700 
+            hover:text-blue-700 
             transform 
             hover:scale-105 
             transition 

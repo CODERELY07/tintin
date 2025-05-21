@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from 'react-router-dom';
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,10 +34,10 @@ export default function Header() {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-6">
-              <a href="#" className="text-pink-700 hover:text-pink-600">Home</a>
-              <a href="#" className="text-pink-700 hover:text-pink-600">Videos</a>
-              <a href="#" className="text-pink-700 hover:text-pink-600">About</a>
-              <a href="#" className="text-pink-700 hover:text-pink-600">Contact</a>
+              <Link to="/" className="text-pink-700 hover:text-pink-600">Home</Link>
+              <Link to="/video" className="text-pink-700 hover:text-pink-600">Videos</Link>
+              <Link to="/about" className="text-pink-700 hover:text-pink-600">About</Link>
+              <Link to="/contact" className="text-pink-700 hover:text-pink-600">Contact</Link>
             </nav>
 
             {/* Mobile Menu Button */}

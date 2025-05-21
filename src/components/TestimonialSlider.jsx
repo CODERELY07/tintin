@@ -5,27 +5,27 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    name: "Andrew Bouley",
-    role: "Creative Director at ALKAMY",
-    image: "/path-to-image.png",
+    name: "Lorem Ipsum",
+    role: "Dolor Sit Amet at Company",
+    image: "/path-to-placeholder.png",
     stars: 5,
-    text: `Renderforest has been influential in helping our marketing team meet and exceed their goals. Animation was always something that required a lot of time and attention, but now it allows them to quickly create a professional video and then dive back into their other projects. I would recommend Renderforest to anyone looking to jump-start their business while achieving professional quality videos and animation.`,
+    text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt, nunc nec sollicitudin cursus, arcu magna pretium urna, a interdum turpis est non nisl. Sed quis mi vel lacus porta efficitur.`,
   },
   {
-    name: "Jane Doe",
-    role: "Marketing Lead at CREATIX",
-    image: "/path-to-image2.png",
+    name: "Jane Lorem",
+    role: "Consectetur Adipiscing at Ipsum Inc.",
+    image: "/path-to-placeholder2.png",
     stars: 5,
-    text: `Renderforest is a game-changer. We use it regularly for promotional content.`,
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
   },
-  // Add more testimonials if needed
+  // Add more lorem testimonials if needed
 ];
 
 export default function TestimonialSlider() {
   return (
-    <div className=" py-10">
+    <div className="py-10">
       <h2 className="text-3xl font-bold text-center mb-8">
-        See Why Our Users Love Animation Maker
+        Lorem Ipsum Testimonials
       </h2>
       <Swiper
         slidesPerView={1}
