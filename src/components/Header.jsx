@@ -31,7 +31,7 @@ export default function Header({className}) {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="font-bold text-purple-600">
-             <img src="./src/assets/img/white_on_black.png" className="h-16 w-auto rounded-full object-contain mx-auto" alt="Logo" />
+             <img src="./img/white_on_black.png" className="h-16 w-auto rounded-full object-contain mx-auto" alt="Logo" />
           </div>
 
             {/* Desktop Navigation */}
