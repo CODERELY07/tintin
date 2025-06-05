@@ -9,19 +9,19 @@ const galleryImages = [
     category: "Alamat ng Boa",
   },
   {
-    src: "./src/assets/img/1.png",
+    src: "./img/1.png",
     category: "Alamat ng Boa",
   },
   {
-    src: "./src/assets/img/2.png",
+    src: "./img/2.png",
     category: "Alamat ng Boa",
   },
   {
-    src: "./src/assets/img/3.png",
+    src: "./img/3.png",
     category: "Alamat ng Boa",
   },
   {
-    src: "./src/assets/img/5.png",
+    src: "./img/5.png",
     category: "Alamat ng Boa",
   },
 ];
