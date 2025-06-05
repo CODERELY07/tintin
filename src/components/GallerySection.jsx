@@ -5,19 +5,19 @@ import { Link } from "react-router-dom"; // If you're using React Router
 
 const galleryImages = [
    {
-    src: "./src/assets/img/4.png",
+    src: "./img/4.png",
     category: "Alamat ng Boa",
   },
   {
-    src: "./src/assets/img/1.png",
+    src: "./img/1.png",
     category: "Alamat ng Boa",
   },
   {
-   src: "./src/assets/img/2.png",
+   src: "./img/2.png",
     category: "Alamat ng Boa",
   },
   {
- src: "./src/assets/img/3.png",
+ src: "./img/3.png",
     category: "Alamat ng Boa",
   }
 ];

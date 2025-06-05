@@ -5,7 +5,7 @@ import Header from "../components/Header";
 
 const galleryImages = [
   {
-    src: "./src/assets/img/4.png",
+    src: "./img/4.png",
     category: "Alamat ng Boa",
   },
   {
