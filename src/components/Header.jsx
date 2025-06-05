@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-
-export default function Header({className}) {
+export default function Header({ className }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -18,8 +17,18 @@ export default function Header({className}) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Define shared navigation links
+  const navLinks = [
+    { path: "/", label: "Home" },
+    { path: "/video", label: "Videos" },
+    { path: "/about", label: "About" },
+    { path: "/galerya", label: "Galerya" },
+  ];
+
   return (
-    <div className={`fixed ${className} top-2 left-1/2 transform -translate-x-1/2 w-full max-w-5xl z-50 px-2 p-4`}>
+    <div
+      className={`fixed ${className} -top-[20px] sm:top-2 left-1/2 transform -translate-x-1/2 w-full max-w-5xl z-50 px-2 p-4`}
+    >
       <header
         className={`
           bg-white shadow-md w-full overflow-hidden p-2
@@ -31,15 +40,24 @@ export default function Header({className}) {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="font-bold text-purple-600">
-             <img src="./img/white_on_black.png" className="h-16 w-auto rounded-full object-contain mx-auto" alt="Logo" />
-          </div>
+              <img
+                src="./img/white_on_black.png"
+                className="h-16 w-auto rounded-full object-contain mx-auto"
+                alt="Logo"
+              />
+            </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-6 pr-4">
-              <Link to="/" className="text-pink-700 hover:text-pink-600">Home</Link>
-              <Link to="/video" className="text-pink-700 hover:text-pink-600">Videos</Link>
-              <Link to="/about" className="text-pink-700 hover:text-pink-600">About</Link>
-              <Link to="/galerya" className="text-pink-700 hover:text-pink-600">Galerya</Link>
+              {navLinks.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  className="text-pink-700 hover:text-pink-600"
+                >
+                  {link.label}
+                </Link>
+              ))}
             </nav>
 
             {/* Mobile Menu Button */}
@@ -54,7 +72,7 @@ export default function Header({className}) {
           </div>
         </div>
 
-        {/* Mobile Navigation Menu with animation */}
+        {/* Mobile Navigation Menu */}
         <div
           className={`
             md:hidden
@@ -67,10 +85,16 @@ export default function Header({className}) {
           `}
           style={{ willChange: "max-height, opacity" }}
         >
-          <a href="#" className="block text-gray-700 hover:text-pink-600">Home</a>
-          <a href="#" className="block text-gray-700 hover:text-pink-600">Videos</a>
-          <a href="#" className="block text-gray-700 hover:text-pink-600">About</a>
-          <a href="#" className="block text-gray-700 hover:text-pink-600">Contact</a>
+          {navLinks.map((link) => (
+            <Link
+              key={link.path}
+              to={link.path}
+              className="block text-gray-700 hover:text-pink-600"
+              onClick={() => setIsOpen(false)} // Close menu on click
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
       </header>
     </div>

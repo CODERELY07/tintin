@@ -20,6 +20,7 @@ import { useNavigate } from "react-router-dom";
 export default function VideoList({ video, onNext }) {
   const navigate = useNavigate();
   const [showShareMenu, setShowShareMenu] = useState(false);
+  const [copied, setCopied] = useState(false); // state to track copy action
 
   const shareParams = new URLSearchParams({
     title: video?.title || "",
@@ -52,7 +53,10 @@ export default function VideoList({ video, onNext }) {
   };
 
   const copyLink = () => {
-    navigator.clipboard.writeText(shareUrl);
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000); // Reset text after 2s
+    });
   };
 
   return (
@@ -124,7 +128,7 @@ export default function VideoList({ video, onNext }) {
                   className="flex items-center gap-2 text-sm text-purple-600 hover:text-purple-800"
                 >
                   <ClipboardDocumentIcon className="w-5 h-5" />
-                  Copy Link
+                  {copied ? "Link copied!" : "Copy Link"}
                 </button>
               </div>
             )}
@@ -134,4 +138,3 @@ export default function VideoList({ video, onNext }) {
     </div>
   );
 }
-  

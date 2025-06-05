@@ -2,7 +2,6 @@ import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ReactPlayer from "react-player";
 
 const videos = [
   {
@@ -11,7 +10,8 @@ const videos = [
     year: 2025,
     duration: "10 min",
     genres: ["Alamat"],
-    url: "/videos/rough_draft.mp4",
+    url: "https://drive.google.com/file/d/1r2dIuRk9WgbAX_9I6nvLnNIiYlCzF1fW/preview",
+  
     description:
       "Ang Pangalan na nagmula sa orihinal na sitio ng bayan ng Nabua na Boa o ang batang embryo ng buko.",
   },
@@ -25,17 +25,13 @@ const videos = [
     description:
       "Ang Lugar ng Bato na dating tinatawag na Calilingo, mula sa pangalan ng ilog sahan. Sa kalaunan tinawag na itong bato.",
   },
-  // Add more videos as needed
 ];
 
 export default function WatchPage() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Parse query params if any
   const params = new URLSearchParams(location.search);
-
-  // Try to get video details from query params first (for shared URLs)
   const queryTitle = params.get("title");
   const queryDescription = params.get("description");
   const queryImageUrl = params.get("image");
@@ -43,7 +39,6 @@ export default function WatchPage() {
   const queryDuration = params.get("duration");
   const queryGenres = params.get("genres") ? params.get("genres").split(",") : [];
 
-  // Use location.state as fallback (when navigated internally)
   const {
     videoUrl,
     imageUrl,
@@ -54,7 +49,6 @@ export default function WatchPage() {
     description,
   } = location.state || {};
 
-  // Decide which data source to use
   const currentVideo = {
     videoUrl: videoUrl || (queryTitle ? videos.find(v => v.title === queryTitle)?.url : ""),
     imageUrl: imageUrl || queryImageUrl,
@@ -65,10 +59,7 @@ export default function WatchPage() {
     description: description || queryDescription,
   };
 
-  // Filter recommended excluding current video by title
-  const recommendedMovies = videos.filter(
-    (v) => v.title !== currentVideo.title
-  );
+  const recommendedMovies = videos.filter((v) => v.title !== currentVideo.title);
 
   const handleWatch = (movie) => {
     navigate("/watch", {
@@ -95,12 +86,15 @@ export default function WatchPage() {
       >
         {currentVideo.videoUrl ? (
           <div className="w-full max-w-6xl mx-auto aspect-video shadow-lg">
-            <ReactPlayer
-              url={currentVideo.videoUrl}
-              controls
+            <iframe
+              src={currentVideo.videoUrl}
               width="100%"
               height="100%"
-            />
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              className="w-full h-full rounded"
+              title="Video Player"
+            ></iframe>
           </div>
         ) : (
           <p className="text-white text-lg">No video URL provided.</p>

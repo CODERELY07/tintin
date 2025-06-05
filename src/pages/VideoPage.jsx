@@ -10,10 +10,11 @@ const videos = [
     year: 2025,
     duration: "10 min",
     genres: ["Alamat"],
-    url: "/videos/rough_draft.mp4",
+    url: "https://drive.google.com/file/d/1r2dIuRk9WgbAX_9I6nvLnNIiYlCzF1fW/preview",
     description:
       "Ang Pangalan na nagmula sa orihinal na sitio ng bayan ng Nabua na Boa o ang batang embryo ng buko.",
   },
+
   {
     title: "Alamat ng Bato",
       image: "./src/assets/img/2.png ",
