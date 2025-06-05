@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const videos = [
   {
     title: "Alamat ng Boa",
-    image: "./src/assets/img/1.png",
+    image: "./img/1.png",
     year: 2025,
     duration: "10 min",
     genres: ["Alamat"],
@@ -17,7 +17,7 @@ const videos = [
   },
   {
     title: "Alamat ng Bato",
-    image: "./src/assets/img/2.png",
+    image: "./img/2.png",
     year: 2025,
     url: "/videos/vid2.mp4",
     duration: "10 min",
