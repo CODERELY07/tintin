@@ -24,38 +24,25 @@ const Footer = () => {
 
         {/* Use FlexClip For */}
         <div>
-          <h3 className="font-semibold mb-2">Researchers</h3>
+          <h3 className="font-semibold mb-2">Mananaliksik</h3>
           <ul className="space-y-1 text-sm">
             {[
-              "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum",
-              "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum",
-              "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"
+              "Moral. Venus Anne N.", "Oliveros, Jessica C.", "Portugal, Mary Grace S.", "Renegado, Christine May V.",
+              "Sabaybay, Reinalyn Mae C.", "Seva, Viacel A.", "Transona, Joanna Marie B.", "Velasco. Roecel LI.",
             ].map(item => <li key={item}>{item}</li>)}
           </ul>
         </div>
 
         {/* Tools */}
         <div>
-          <h3 className="font-semibold mb-2"> TOOLS</h3>
+          <h3 className="font-semibold mb-2"> Instrumento</h3>
           <ul className="space-y-1 text-sm">
-            <li>Lorem to Speech</li>
-            <li>Auto Dolor Subtitle</li>
-            <li>Ipsum to Video</li>
-            <li>Screen Captura</li>
+            <li>Ibis Paint for the actual drawings</li>
+            <li>Photoshop for Slight Edits</li>
+            <li>Capcut videopad for putting things together</li>
           </ul>
         </div>
 
-        {/* Resources */}
-        <div>
-          <h3 className="font-semibold mb-2">Other</h3>
-          <ul className="space-y-1 text-sm">
-            <li>Lorem Blog</li>
-            <li>Case Ipsum</li>
-            <li>Compare Tools</li>
-            <li>Lorem Categories</li>
-            <li>Template Ipsum</li>
-          </ul>
-        </div>
       </div>
     </footer>
   );

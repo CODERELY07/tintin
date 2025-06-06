@@ -5,17 +5,51 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    name: "Lorem Ipsum",
-    role: "Dolor Sit Amet at Company",
-    image: "/path-to-placeholder.png",
-    stars: 5,
-    text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt, nunc nec sollicitudin cursus, arcu magna pretium urna, a interdum turpis est non nisl. Sed quis mi vel lacus porta efficitur.`,
+    name: "Renegado, Christine May V.",
+    role: "Lider",
+    image: "/img/tintin.jpg",
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`
   },
   {
-    name: "Jane Lorem",
-    role: "Consectetur Adipiscing at Ipsum Inc.",
-    image: "/path-to-placeholder2.png",
-    stars: 5,
+    name: "Velasco. Roecel LI.",
+    role: "Assistant Lider",
+    image: "img/velasco.jpg",
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
+  },
+  {
+    name: "Transona, Joanna Marie B.",
+    role: "Member",
+    image: "img/transona.jpg",
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
+  },
+  {
+    name: "Sabaybay, Reinalyn Mae C.",
+    role: "Member",
+    image: "img/sabaybay.jpg",
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
+  },
+  {
+    name: "Oliveros, Jessica C.",
+    role: "Member",
+    image: "img/oliveros.jpg",
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
+  },
+  {
+    name: "Portugal, Mary Grace S.",
+    role: "Member",
+    image: "img/protugal.jpg",
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
+  },
+  {
+    name: "Moral. Venus Anne N.",
+    role: "Member",
+    image: "img/venus.jpg",
+    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
+  },
+  {
+    name: "Seva, Viacel A.",
+    role: "Member",
+    image: "img/viacel.jpg",
     text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
   },
   // Add more lorem testimonials if needed
@@ -25,7 +59,7 @@ export default function TestimonialSlider() {
   return (
     <div className="py-10">
       <h2 className="text-3xl font-bold text-center mb-8">
-        Lorem Ipsum Testimonials
+        TEAM PANITIKAN
       </h2>
       <Swiper
         slidesPerView={1}
