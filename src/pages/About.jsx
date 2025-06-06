@@ -42,7 +42,7 @@ const About = () => {
             <motion.p
               key={i}
               variants={fadeInUp}
-              className="text-lg md:text-xl text-justify text-gray-700 mb-6 leading-relaxed"
+              className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed"
             >
               {text}
             </motion.p>
