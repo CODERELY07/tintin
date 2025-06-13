@@ -12,7 +12,6 @@ const About = () => {
   return (
     <>
       <Header />
-
       <div className="relative overflow-hidden bg-gradient-to-b from-white via-slate-50 to-white py-20 px-6">
         {/* Radial Background Glow */}
         <div className="absolute -top-32 left-1/2 transform -translate-x-1/2 w-[80vw] h-[80vw] bg-gradient-radial from-pink-200 via-white/40 to-transparent rounded-full opacity-30 pointer-events-none z-0" />
@@ -42,7 +41,7 @@ const About = () => {
             <motion.p
               key={i}
               variants={fadeInUp}
-              className="text-lg md:text-xl text-justify text-gray-700 mb-6 leading-relaxed"
+              className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed"
             >
               {text}
             </motion.p>

@@ -9,10 +9,10 @@ export default function Banner() {
       {/* Content container with higher z-index */}
       <div className="relative z-10">
         <h1 className=" lg:text-5xl text-3xl  max-w-3xl font-extrabold drop-shadow-lg mb-4">
-          Tuklasin ang Alamat ng Nabua at Bato
+          Tuklasin ang mga Alamat sa Rinconada
         </h1>
         <p className="sm:text-xl text-[14px] max-w-3xl drop-shadow-md mb-8">
-          Maligayang pagdating! Ang website na ito ay nilikha upang ipakilala ang mayamang kasaysayan, kultura, at alamat ng mga bayan ng Nabua at Bato sa Camarines Sur. Tampok dito ang isang orihinal na animated na video na gawa mismo ng mga author ng website na ito.
+          Maligayang pagdating! Ang website na ito ay nilikha upang ipakilala ang mayamang kasaysayan, kultura, at alamat ng mga bawat bayan sa Rinconada. Tampok dito ang isang orihinal na animated na video at mga Digital Poster na gawa mismo ng mga awtor ng website na ito.
         </p>
         <button
           className="

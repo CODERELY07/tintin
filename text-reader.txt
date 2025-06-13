@@ -1,0 +1,13 @@
+
+
+import TextReader from './TextReader';
+
+function App() {
+  return (
+    <div className="p-8">
+      <TextReader text="This is an example text that will be read aloud. The words will highlight as they're spoken." />
+    </div>
+  );
+}
+
+export default App;

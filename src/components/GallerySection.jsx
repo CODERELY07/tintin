@@ -4,22 +4,35 @@ import { useState } from "react";
 import { Link } from "react-router-dom"; // If you're using React Router
 
 const galleryImages = [
+    {
+    src:   "./img/alamat-ng-boa.jpg", 
+    category: "Alamat ng Boa",
+  },
    {
-    src: "./img/4.png",
+    src: "./img/alamat-buluang.jpg", 
+    category: "Alamat ng Buluang",
+  },
+
+  {
+   src:  "./img/alamat-ng-bula.jpg", 
+    category: "Alamat ng Bula",
+  },
+  {
+ src:  "./img/alamat-ng-naka-buhi.jpg", 
     category: "Alamat ng Boa",
   },
   {
-    src: "./img/1.png",
-    category: "Alamat ng Boa",
+ src:    "./img/alamat-ng-siramag.jpg", 
+    category: "Alamat ng Simarag",
   },
   {
-   src: "./img/2.png",
-    category: "Alamat ng Boa",
+ src:  "./img/batong-sagrado.jpg", 
+    category: "Alamat ng Sagrado",
   },
   {
- src: "./img/3.png",
-    category: "Alamat ng Boa",
-  }
+ src:    "./img/neustra.jpg", 
+    category: "Alamat ng Neustra",
+  },
 ];
 
 export default function GallerySection() {
@@ -30,8 +43,7 @@ export default function GallerySection() {
     <section className="p-6 md:p-12 bg-white">
       <h2 className="text-3xl font-bold text-center mb-6">Galerya</h2>
       <p className="text-base md:text-lg max-w-3xl mx-auto text-gray-700 leading-relaxed italic mt-4">
-        🎞️ Larawang ito ay hango sa mismong animation — isang makulay at emosyonal na eksena na
-        nagpapakita ng puso ng kwento. Isa itong sandaling hindi mo basta makakalimutan.
+        Ang larawang ito ay hango sa digital poster na lalong napapakulay sa mga kuwento. Sa gayon, ang digital poster ay nagsisilbing isang mabisang pantulong upang maging mas malinaw, makulay, at nakakahikayat ang paglalahad ng mga kuwento.
       </p>
 
       <div className="grid grid-cols-2 mt-10 sm:grid-cols-3 md:grid-cols-4 gap-4">

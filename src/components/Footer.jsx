@@ -6,10 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Logo and Description */}
         <div className="space-y-4 col-span-1 md:col-span-2">
-          <div className="text-3xl font-bold text-purple-600">Storyang Galin Rinconada</div>
-          <p className="text-sm">
-            Alamat tungkol sa Nabua at Bato
-          </p>
+          <div className="text-3xl font-bold text-purple-600">Istoryang Galin Rinconada</div>
           {/* <select className="border rounded px-2 py-1">
             <option>English</option>
           </select>
@@ -19,7 +16,7 @@ const Footer = () => {
             <button className="bg-black w-10 h-10 rounded flex items-center justify-center text-white">X</button>
             <button className="bg-blue-800 w-10 h-10 rounded flex items-center justify-center text-white">in</button>
           </div> */}
-          <p className="text-sm mt-4">© 2025 Storyang Galin Rinconada</p>
+          <p className="text-sm mt-4">© 2025 Istoryang Galin Rinconada</p>
         </div>
 
         {/* Use FlexClip For */}
@@ -40,6 +37,7 @@ const Footer = () => {
             <li>Ibis Paint for the actual drawings</li>
             <li>Photoshop for Slight Edits</li>
             <li>Capcut videopad for putting things together</li>
+            <li>Cici Ai for digital poster</li>
           </ul>
         </div>
 

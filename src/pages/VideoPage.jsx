@@ -15,16 +15,16 @@ const videos = [
       "Ang Pangalan na nagmula sa orihinal na sitio ng bayan ng Nabua na Boa o ang batang embryo ng buko.",
   },
 
-  {
-    title: "Alamat ng Bato",
-      image: "./img/2.png ",
-    year: 2025,
-    url: "/videos/vid2.mp4",
-    duration: "10 min",
-    genres: ["Alamat"],
-    description:
-      "Ang Lugar ng Bato na dating tinatawag na Calilingo, mula sa pangalan ng ilog sahan. Sa kalaunan tinawag na itong bato.",
-  },
+  // {
+  //   title: "Alamat ng Bato",
+  //     image: "./img/2.png ",
+  //   year: 2025,
+  //   url: "/videos/vid2.mp4",
+  //   duration: "10 min",
+  //   genres: ["Alamat"],
+  //   description:
+  //     "Ang Lugar ng Bato na dating tinatawag na Calilingo, mula sa pangalan ng ilog sahan. Sa kalaunan tinawag na itong bato.",
+  // },
   // Add more videos as needed
 ];
 
