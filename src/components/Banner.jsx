@@ -12,7 +12,7 @@ export default function Banner() {
           Tuklasin ang mga Alamat sa Rinconada
         </h1>
         <p className="sm:text-xl text-[14px] max-w-3xl drop-shadow-md mb-8">
-          Maligayang pagdating! Ang website na ito ay nilikha upang ipakilala ang mayamang kasaysayan, kultura, at alamat ng mga bawat bayan sa Rinconada. Tampok dito ang isang orihinal na animated na video at mga Digital Poster na gawa mismo ng mga awtor ng website na ito.
+          Maligayang pagdating! Ang website na ito ay nilikha upang ipakilala ang mayamang kasaysayan, kultura, at alamat sa bayan sa Rinconada. Tampok dito ang isang orihinal na animated na video at mga Digital Poster na gawa mismo ng mga awtor ng website na ito.
         </p>
         <button
           className="

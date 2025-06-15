@@ -36,6 +36,16 @@ const places = [
     name: "BALATAN",
     description: " — Tanyag ang bayan ng Balatan sa malinis nitong dalampasigan at masaganang likas na yaman mula sa dagat. Sa bawat sulok nito, mababanaag ang mayamang kultura at mga alamat na nagpapakilala sa pagkakakilanlan ng mga Balateño."
   },
+  {
+    id: 6,
+    name: "Nabua",
+    description: " - Isang makasaysayang bayan na naitatag noong 1571. Nabua ang makasaysayang pinagmulan ng pangalan nito noong panahon ng Kolonisasyon ng mga Espanyol."
+  },
+  {
+    id: 7,
+    name: "Bato",
+    description: " - Matatagpuan sa tabi ng Lawa ng Bato. Kilala sa pangingisda, pagsasaka, at mga kuwentong may halong alamat ng mahiwagang nilalang."
+  },
 
 ]
 export default function Home() {
@@ -50,7 +60,7 @@ export default function Home() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900">Alamat ng Nabua at Bato</h2>
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-              Alamin ang makulay na kuwento sa bayan ng Rinconada mula sa rehuyon ng Bicol — mga pook na hitik sa tradisyon, alamat at kultura.
+             Alamin ang makulay na kuwento mula sa bawat bayan ng Rinconada mula sa rehiyon ng Bicol mga pook na hitik sa tradisyon, alamat at kultura.
           </p>
         </div>
 
@@ -73,7 +83,7 @@ export default function Home() {
       </div>
       <GallerySection/>
       {/* <Accordion/> */}
-      <TestimonialSlider/>
+      {/* <TestimonialSlider/> */}
       
       <Footer/>
     </>

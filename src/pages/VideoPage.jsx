@@ -10,7 +10,7 @@ const videos = [
     year: 2025,
     duration: "10 min",
     genres: ["Alamat"],
-    url: "https://drive.google.com/file/d/1r2dIuRk9WgbAX_9I6nvLnNIiYlCzF1fW/preview",
+    url: "https://drive.google.com/file/d/1gBQVW3jBkb9VQpGNHFnSn47Hm36GHCu4/preview",
     description:
       "Ang Pangalan na nagmula sa orihinal na sitio ng bayan ng Nabua na Boa o ang batang embryo ng buko.",
   },
@@ -42,14 +42,14 @@ export default function VideoPage() {
   return (
     <>
       <Header />
-    <section className="bg-blue-50 px-6 text-center min-h-screen flex flex-col justify-center items-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Lorem ipsum dolor sit amet.
-        </h1>
-        <p className="text-gray-600 max-w-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nesciunt.
-        </p>
-    </section>
+      {/* <section className="bg-blue-50 px-6 text-center min-h-screen flex flex-col justify-center items-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Lorem ipsum dolor sit amet.
+          </h1>
+          <p className="text-gray-600 max-w-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nesciunt.
+          </p>
+      </section> */}
 
 
       <VideoList

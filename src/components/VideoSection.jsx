@@ -7,15 +7,15 @@ export default function InfoSection() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-24 flex flex-col md:flex-row items-center md:items-start gap-12">
         {/* Video Section */}
         <div className="w-full md:w-1/2">
-          <video
-            controls
-            className="w-full rounded-lg shadow-lg aspect-video"
-            src="/videos/rough_draft.mp4"
-            type="video/mp4"
-            title="Cybersecurity Explainer Video"
-          >
-            Your browser does not support the video tag.
-          </video>
+            <iframe
+              src="https://drive.google.com/file/d/1r2dIuRk9WgbAX_9I6nvLnNIiYlCzF1fW/preview"
+              width="100%"
+              height="100%"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              className="w-full rounded-lg shadow-lg aspect-video"
+              title="Video Player"
+            ></iframe>
         </div>
 
         {/* Text Section */}
