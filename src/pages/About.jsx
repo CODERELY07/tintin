@@ -39,7 +39,7 @@ const About = () => {
             <motion.p
               key={i}
               variants={fadeInUp}
-              className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed"
+              className="text-lg indent-8 md:text-xl text-gray-700 mb-6 leading-relaxed"
             >
               {text}
             </motion.p>
@@ -65,7 +65,7 @@ const About = () => {
             <motion.p
               key={i}
               variants={fadeInUp}
-              className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed"
+              className="text-lg indent-8 md:text-xl text-gray-700 mb-6 leading-relaxed"
             >
               {text}
             </motion.p>

@@ -58,7 +58,7 @@ export default function Home() {
       <VideoSection/>
       <div className="bg-blue-50 px-10 py-16 md:mx-10 rounded-3xl border border-2 border  border-blue-200 shadow-sm">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900">Alamat ng Nabua at Bato</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Mga Bayan ng Rinconada</h2>
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
              Alamin ang makulay na kuwento mula sa bawat bayan ng Rinconada mula sa rehiyon ng Bicol mga pook na hitik sa tradisyon, alamat at kultura.
           </p>
