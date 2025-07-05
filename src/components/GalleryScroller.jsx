@@ -2,13 +2,13 @@ import React from 'react';
 import './GalleryScroller.css'; // We will add custom css here
 import { Link } from 'react-router-dom';
 const galleryImages = [
-  { src: "./img/alamat-ng-boa.jpg", category: "Alamat ng Boa" },
-  { src: "./img/alamat-buluang.jpg", category: "Alamat ng Buluang" },
-  { src: "./img/alamat-ng-bula.jpg", category: "Alamat ng Bula" },
-  { src: "./img/alamat-ng-naka-buhi.jpg", category: "Alamat ng Boa" },
-  { src: "./img/alamat-ng-siramag.jpg", category: "Alamat ng Simarag" },
-  { src: "./img/batong-sagrado.jpg", category: "Alamat ng Sagrado" },
-  { src: "./img/neustra.jpg", category: "Alamat ng Neustra" },
+  { src: "./img/boa.jpeg", category: "Alamat ng Boa" },
+  { src: "./img/buluang.jpeg", category: "Alamat ng Buluang" },
+  { src: "./img/bula.jpeg", category: "Alamat ng Bula" },
+  { src: "./img/buhi.jpeg", category: "Alamat ng Boa" },
+  { src: "./img/siramag.jpeg", category: "Alamat ng Simarag" },
+  { src: "./img/sagrado.jpeg", category: "Alamat ng Sagrado" },
+  { src: "./img/angustias.jpeg", category: "Alamat ng Neustra" },
 ];
 
 export default function GalleryScroller() {

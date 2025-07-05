@@ -5,32 +5,32 @@ import { Link } from "react-router-dom"; // If you're using React Router
 
 const galleryImages = [
     {
-    src:   "./img/alamat-ng-boa.jpg", 
+    src:   "./img/boa.jpeg", 
     category: "Alamat ng Boa",
   },
    {
-    src: "./img/alamat-buluang.jpg", 
+    src: "./img/buluang.jpeg", 
     category: "Alamat ng Buluang",
   },
 
   {
-   src:  "./img/alamat-ng-bula.jpg", 
+   src:  "./img/bula.jpeg", 
     category: "Alamat ng Bula",
   },
   {
- src:  "./img/alamat-ng-naka-buhi.jpg", 
+ src:  "./img/buhi.jpeg", 
     category: "Alamat ng Boa",
   },
   {
- src:    "./img/alamat-ng-siramag.jpg", 
+ src:    "./img/siramag.jpeg", 
     category: "Alamat ng Simarag",
   },
   {
- src:  "./img/batong-sagrado.jpg", 
+ src:  "./img/sagrado.jpeg", 
     category: "Alamat ng Sagrado",
   },
   {
- src:    "./img/neustra.jpg", 
+ src:    "./img/angustias.jpeg", 
     category: "Alamat ng Neustra",
   },
 ];

@@ -5,10 +5,10 @@ import VideoList from '../components/VideoList';
 
 const videos = [
   {
-    title: "Alamat ng Boa",
+  title: "Alamat ng Boa",
     image: "./img/1.png ",
     year: 2025,
-    duration: "10 min",
+    duration: "1 min 58 sec",
     genres: ["Alamat"],
     url: "https://drive.google.com/file/d/1gBQVW3jBkb9VQpGNHFnSn47Hm36GHCu4/preview",
     description:

@@ -1,13 +1,13 @@
 import { useEffect, useRef } from "react";
 
 const images = [
-  "./img/alamat-buluang.jpg", 
-  "./img/alamat-ng-boa.jpg", 
-  "./img/alamat-ng-bula.jpg", 
-  "./img/alamat-ng-naka-buhi.jpg", 
-  "./img/alamat-ng-siramag.jpg", 
-  "./img/batong-sagrado.jpg", 
-  "./img/neustra.jpg", 
+  "./img/buluang.jpeg", 
+  "./img/boa.jpeg", 
+  "./img/bula.jpeg", 
+  "./img/buhi.jpeg", 
+  "./img/siramag.jpeg", 
+  "./img/sagrado.jpeg", 
+  "./img/angustias.jpeg", 
 ];
 
 export default function AutoScrollSlider() {

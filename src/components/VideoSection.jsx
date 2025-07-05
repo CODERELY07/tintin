@@ -8,7 +8,7 @@ export default function InfoSection() {
         {/* Video Section */}
         <div className="w-full md:w-1/2">
             <iframe
-              src="https://drive.google.com/file/d/1r2dIuRk9WgbAX_9I6nvLnNIiYlCzF1fW/preview"
+              src="https://drive.google.com/file/d/1gBQVW3jBkb9VQpGNHFnSn47Hm36GHCu4/preview"
               width="100%"
               height="100%"
               allow="autoplay; fullscreen"
