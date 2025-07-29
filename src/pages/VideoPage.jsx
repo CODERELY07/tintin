@@ -10,7 +10,7 @@ const videos = [
     year: 2025,
     duration: "1 min 58 sec",
     genres: ["Alamat"],
-    url: "https://drive.google.com/file/d/1gBQVW3jBkb9VQpGNHFnSn47Hm36GHCu4/preview",
+    url: "https://drive.google.com/file/d/1n8zCIHpTgm6J2jJs7MbYfbL1x8orBDPn/preview",
     description:
       "Ang Pangalan na nagmula sa orihinal na sitio ng bayan ng Nabua na Boa o ang batang embryo ng buko.",
   },
